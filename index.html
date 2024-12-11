@@ -1,153 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Home | Nila Sivapragasam</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Faculty+Glyphic&family=League+Spartan:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-  <style>
-    body {
-      margin: 0;
-      font-weight: 400;
-      font-family: 'League Spartan', sans-serif;
-      background-color: White;
-      font-size: 1.667vw;
-    }
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Nila Sivapragasam</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Faculty+Glyphic&family=League+Spartan:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <style>
+      body {
+        margin: 0;
+        font-weight: 350;
+        font-family: 'League Spartan', sans-serif;
+        background-color: White;
+        font-size: 1.667vw;
+      }
 
-    h1, h2 {
-      font-weight: 600;
-      font-size: 5vw;
-    }
+      h1,
+      h2 {
+        font-weight: 500;
+        font-size: 5vw;
+      }
 
-    h1 {
-      margin-top: 5vw;
-      margin-bottom: 0;
-      color: #214E34;
-      text-align: center;
-    }
+      h1 {
+        margin-top: 5vw;
+        margin-bottom: 0;
+        color: #214E34;
+        text-align: center;
+      }
 
-    h2 {
-      padding-left: 5vw;
-      color: #ECEAE0;
-    }
+      h2 {
+        padding-left: 5vw;
+        color: #ECEAE0;
+      }
 
-    p {
-      font-size: 1.667vw;
-      color: #ECEAE0;
-      padding: 5vw
-    }
-    
-    #header {
-      background-color: #214E34;
-      height: 17.5vw;
-      display: flex;
-      align-items: center;
-      justify-content: left;
-      text-align: left;
-      line-height: 1; 
-    }
+      p {
+        font-size: 1.667vw;
+        color: #ECEAE0;
+        padding: 5vw
+      }
 
-    #menu-bar {
-      background-color: #979B8D;
-      height: 5vw; 
-      display: flex;
-      align-items: center;
-      padding-left: 5vw;
-    }
-    
-    #menu-bar ul {
-      display: flex;
-      justify-content: left;
-      padding: 0;
-      gap: 5vw;
-    }
+      a {
+        color: Green;
+      }
 
-    #menu-bar ul li {
-      display: inline;
-    }
-
-    #menu-bar ul li a {
-      color: #ECEAE0;
-      text-decoration: none;
-      font-size: 1.8vw;
-    }
-    
-    .content {
-      display: flex;
-      max-width: 100%;
-      gap: 2.5vw;
-    }
-    
-    .main-content {
+      #header {
+        background-color: #214E34;
+        height: 17.5vw;
         display: flex;
+        align-items: center;
+        justify-content: left;
+        text-align: left;
+        line-height: 1;
+      }
+
+      #menu-bar {
+        background-color: #979B8D;
+        height: 5vw;
+        display: flex;
+        align-items: center;
+        padding-left: 5vw;
+      }
+
+      #menu-bar ul {
+        display: flex;
+        justify-content: left;
+        padding: 0;
+        gap: 5vw;
+      }
+
+      #menu-bar ul li {
+        display: inline;
+      }
+
+      #menu-bar ul li a {
+        color: #ECEAE0;
+        text-decoration: none;
+        font-size: 1.8vw;
+      }
+
+      #menu-bar ul li a:hover {
+        color: #214E34;
+      }
+
+      .content {
+        display: flex;
+        max-width: 100%;
+        gap: 2.5vw;
+      }
+
+      .main-content {
         width: 65vw;
-    }
-    
-    .side-image-1{
-      width: 27.5vw;
-      height: auto; 
-      padding-top: 2.5vw;
-    }
-    
-    .side-image-2{
-      width: 27.5vw;
-      height: auto; 
-      padding-top: 2.5vw;
-    }
+      }
 
-    .about-text {
-      width: 56.04vw;
-      line-height: 1.75;
-      color: #474448;
-      margin: 0;
-      padding-left: 5vw;
-      padding-top: 2.5vw;
-    }
+      .side-image-1 {
+        width: 27.5vw;
+        height: auto;
+        padding-top: 2.5vw;
+        padding-bottom: 3.75;
+      }
+
+      .side-image-2 {
+        width: 27.5vw;
+        height: auto;
+      }
+
+      .about-text {
+        width: 56.042vw;
+        line-height: 3.125vw;
+        padding-left: 5vw;
+        padding-top: 2.5vw;
+        color: #474448;
+        margin: 0;
+      }
 
 
-    #footer {
-      background-color: #214E34;
-      height: 7.5vw;
-      display: flex;
-      align-items: center;
-      color: #ECEAE0;
-      font-size: 1.667vw;
-      clear: both;    }
-  </style>
-</head>
-<body>
-  <header>
-    <div id="header">
-      <h2>NILA<br>SIVAPRAGASAM</h2>
+      #footer {
+        background-color: #214E34;
+        height: 7.5vw;
+        font-size: 1.667vw;
+        display: flex;
+        align-items: center;
+        color: #ECEAE0;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div id="header">
+        <h2>NILA<br>SIVAPRAGASAM</h2>
+      </div>
+    </header>
+    <nav id="menu-bar">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">My Work</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <h1>Get to know me!</h1>
+    <div class="content">
+      <section class="main-content">
+        <p class="about-text"> I love solving problems and as a naturally left-brain dominant person, I approach challenges with critical thinking and analytical skills. At the same time, I’m interested in how creativity can enhance these solutions, making them not only practical but also engaging. Although creativity and logic are two seemingly opposite ends of a spectrum, I believe that the most impactful work occurs when they intersect. <br> <br> This has led me to the University of Waterloo’s Stratford School of Interaction Design and Business, where I’m pursuing my degree in <a href="https://www.w3schools.com/">GBDA</a> with a Computing minor. Through this program, I gain a diverse set of skills in UX design, computer programming, business administration, digital storytelling and more. It’s given me the perfect platform to combine my problem-solving skills with my creative side, allowing me to produce visually-appealing and functional work. <br> <br> I prioritize creating thoughtful solutions that deliver a strong user experience. I believe great design starts with empathy—understanding people’s perspectives, needs, and challenges is always the foundation of my work. <br> <br> I’m always grateful for new opportunities to learn and grow as a designer. Feel free to reach out, I would love to connect! </p>
+      </section>
+      <section class="side-images">
+        <img src="nila.jpg" alt="Picture of me" class="side-image-1">
+        <img src="grad-pic.jpg" alt="Picture of Nila at graduation" class="side-image-1">
+      </section>
+
     </div>
-  </header>
-  <nav id="menu-bar">
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="projects.html">My Work</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
-  </nav>
-  <h1>Get to know me!</h1>
-  <div class="content">
-    <section class="main-content">
-      <p class="about-text"> I love solving problems and as a naturally left-brain dominant person, I approach challenges with critical thinking and analytical skills. At the same time, I’m interested in how creativity can enhance these solutions, making them not only practical but also engaging. Although creativity and logic are two seemingly opposite ends of a spectrum, I believe that the most impactful work occurs when they intersect. <br> <br> This has led me to the University of Waterloo’s Stratford School of Interaction Design and Business, where I’m pursuing my degree in GBDA with a Computing minor. Through this program, I gain a diverse set of skills in UX design, computer programming, business administration, digital storytelling and more. It’s given me the perfect platform to combine my problem-solving skills with my creative side, allowing me to produce visually-appealing and functional work. <br> <br> I prioritize creating thoughtful solutions that deliver a strong user experience. I believe great design starts with empathy—understanding people’s perspectives, needs, and challenges is always the foundation of my work. <br> <br> I’m always grateful for new opportunities to learn and grow as a designer. Feel free to reach out, I would love to connect!   </p>
-    </section>
-    <section class="side-images">
-      <img src="nila.jpg" alt="Profile Picture" class="side-image-1">
-      <img src="grad-pic.jpg" alt="Profile Picture" class="side-image-1">
-    </section>
-    
-    
-  </div>
-  
-
-
-  <div id="footer">
+    <div id="footer">
       <p>&copy; 2024 Nila Sivapragasam</p>
-  </div>
-</body>
+    </div>
+  </body>
 </html>
